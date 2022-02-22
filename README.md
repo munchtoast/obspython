@@ -41,9 +41,9 @@ This program is used to replace subscription-based streaming services, with a mo
         
 * To make modifications, and record/stream at certain times:
     * Open "**"event_schedule.csv"**" with an IDE or Text Editor, and modify the contents as required.
-    * The format is as followed: (HR_Start, HR_End, Scene) where Scene specifies the certain Scene in OBS that you would like to set at the recording.
+    * The format is as followed: (Recording_Start, Recording_End, Scene) where Scene specifies the certain Scene in OBS that you would like to set at the recording.
     
-    * Examples: If you would like to record at 9AM, and end at 12PM on Monday, make sure this is the entry: **"(09:00,12:00,1)"** at the second column. 
+    * Examples: If you would like to record at 9AM, and end at 12PM on Monday, make sure this is the entry: **"(09:00,12:00,1)"** at the second column. (This uses 24-hour format!)
 
 ## Help
 
